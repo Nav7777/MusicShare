@@ -203,6 +203,7 @@ NSString *const query=@"charts?types=songs";
 
 -(void)reloadTable
 {
+    [_tblSongList setHidden:NO];
     [_tblSongList reloadData];
 }
 
