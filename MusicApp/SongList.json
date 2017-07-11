@@ -1,0 +1,683 @@
+{
+    "results": {
+        "songs": [
+        {
+            "name": "Most Played Songs on Apple Music",
+            "chart": "most-played",
+            "href": "/v1/catalog/au/charts?types=songs&chart=most-played",
+            "next": "/v1/catalog/au/charts?types=songs&chart=most-played&offset=20",
+            "data": [
+            {
+                "id": "1227097836",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1227097836",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is5-ssl.mzstatic.com/image/thumb/Music111/v4/f2/25/0d/f2250df3-4a5c-2b19-702f-90f457f1b237/source/{w}x{h}bb.jpg",
+                        "bgColor": "ffffff",
+                        "textColor1": "000000",
+                        "textColor2": "1d1d1d",
+                        "textColor3": "333333",
+                        "textColor4": "4a4a4a"
+                    },
+                    "artistName": "Luis Fonsi & Daddy Yankee",
+                    "url": "https://itunes.apple.com/au/album/despacito-remix-feat-justin-bieber/id1227097621?i=1227097836",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 228827,
+                    "releaseDate": "2017-04-17",
+                    "name": "Despacito (Remix) [feat. Justin Bieber]",
+                    "playParams": {
+                        "id": "1227097836",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Luis Fonsi, Justin Bieber, Erika Ender, Ramón Ayala & Jason \"Poo Bear\" Boyd"
+                }
+            },
+            {
+                "id": "1249168253",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1249168253",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is5-ssl.mzstatic.com/image/thumb/Music117/v4/88/33/26/88332659-2329-8c1c-3de2-f15f2c641b1f/source/{w}x{h}bb.jpg",
+                        "bgColor": "0a161d",
+                        "textColor1": "c0e3ef",
+                        "textColor2": "8cc6d9",
+                        "textColor3": "9bbac5",
+                        "textColor4": "72a3b3"
+                    },
+                    "artistName": "DJ Khaled",
+                    "url": "https://itunes.apple.com/au/album/wild-thoughts-feat-rihanna-bryson-tiller/id1249168247?i=1249168253",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Hip-Hop/Rap",
+                    "Music"
+                    ],
+                    "durationInMillis": 204173,
+                    "releaseDate": "2017-06-16",
+                    "name": "Wild Thoughts (feat. Rihanna & Bryson Tiller)",
+                    "playParams": {
+                        "id": "1249168253",
+                        "kind": "song"
+                    },
+                    "trackNumber": 3,
+                    "composerName": "Bryson Tiller, Jahron Brathwaite, Khaled Khaled, robyn fenty, Jerry Duplessis, Wyclef Jean, David McRae, High Moore & Carlos Santana",
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1234039373",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1234039373",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/26/ec/0d/26ec0dc9-082f-e156-b8bc-26826657a1dd/source/{w}x{h}bb.jpg",
+                        "bgColor": "958892",
+                        "textColor1": "09080c",
+                        "textColor2": "121014",
+                        "textColor3": "252226",
+                        "textColor4": "2c282d"
+                    },
+                    "artistName": "Liam Payne",
+                    "url": "https://itunes.apple.com/au/album/strip-that-down-feat-quavo/id1234039372?i=1234039373",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 204502,
+                    "releaseDate": "2017-05-19",
+                    "name": "Strip That Down (feat. Quavo)",
+                    "playParams": {
+                        "id": "1234039373",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Liam Payne, Steve Mac, Ed Sheeran, Quavious Marshall, Orville Burrell, Rickardo Ducent, Shaun Pizzonia, Brian Thompson, Sylvester Allen, Harold Ray Brown, Morris Dickerson, Le Roy Lonnie Jordan, Charles William Miller, Lee Oskar & Howard E. Scott"
+                }
+            },
+            {
+                "id": "1249168255",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1249168255",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is5-ssl.mzstatic.com/image/thumb/Music117/v4/88/33/26/88332659-2329-8c1c-3de2-f15f2c641b1f/source/{w}x{h}bb.jpg",
+                        "bgColor": "0a161d",
+                        "textColor1": "c0e3ef",
+                        "textColor2": "8cc6d9",
+                        "textColor3": "9bbac5",
+                        "textColor4": "72a3b3"
+                    },
+                    "artistName": "DJ Khaled",
+                    "url": "https://itunes.apple.com/au/album/im-one-feat-justin-bieber-quavo-chance-rapper-lil-wayne/id1249168247?i=1249168255",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Hip-Hop/Rap",
+                    "Music"
+                    ],
+                    "durationInMillis": 288600,
+                    "releaseDate": "2017-04-28",
+                    "name": "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)",
+                    "playParams": {
+                        "id": "1249168255",
+                        "kind": "song"
+                    },
+                    "trackNumber": 4,
+                    "composerName": "Justin Bieber, Khaled Khaled, Jason Boyd, Quavious Marshall, Chancelor Bennett, Dwayne Carter, Jr., Nicholas Balding, David Park, Bobby Brackins & Ray Jacobs",
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1244117134",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1244117134",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/3a/20/ae/3a20ae9a-51c1-60a1-657c-8a3b4d2ffdd3/source/{w}x{h}bb.jpg",
+                        "bgColor": "513994",
+                        "textColor1": "ffffff",
+                        "textColor2": "edebf4",
+                        "textColor3": "dcd7e9",
+                        "textColor4": "cec7e1"
+                    },
+                    "artistName": "David Guetta",
+                    "url": "https://itunes.apple.com/au/album/2u-feat-justin-bieber/id1244115954?i=1244117134",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Dance",
+                    "Music"
+                    ],
+                    "durationInMillis": 194897,
+                    "releaseDate": "2017-06-09",
+                    "name": "2U (feat. Justin Bieber)",
+                    "playParams": {
+                        "id": "1244117134",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "David Guetta, Giorgio Tuinfort, Jason \"Poo Bear\" Boyd, David Guetta, Justin Bieber, Giorgio Tuinfort & Jason \"Poo Bear\" Boyd"
+                }
+            },
+            {
+                "id": "1230904755",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1230904755",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is5-ssl.mzstatic.com/image/thumb/Music111/v4/49/cc/cb/49cccb5b-586e-bf5b-ac7b-5b7124de80ab/source/{w}x{h}bb.jpg",
+                        "bgColor": "cdc49d",
+                        "textColor1": "0d0d0c",
+                        "textColor2": "321b20",
+                        "textColor3": "333129",
+                        "textColor4": "513c39"
+                    },
+                    "artistName": "Niall Horan",
+                    "url": "https://itunes.apple.com/au/album/slow-hands/id1230904573?i=1230904755",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 187674,
+                    "releaseDate": "2017-05-04",
+                    "name": "Slow Hands",
+                    "playParams": {
+                        "id": "1230904755",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Niall Horan, Alexander Izquierdo, John Ryan, Julian Bunetta, Ruth Anne Cunningham & Tobias Jesso Jr."
+                }
+            },
+            {
+                "id": "1233842597",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1233842597",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is3-ssl.mzstatic.com/image/thumb/Music127/v4/e9/a6/d5/e9a6d554-5081-528f-d9f9-cd22dfc8996c/source/{w}x{h}bb.jpg",
+                        "bgColor": "030104",
+                        "textColor1": "ffd193",
+                        "textColor2": "ffa46f",
+                        "textColor3": "cca776",
+                        "textColor4": "cc8359"
+                    },
+                    "artistName": "Calvin Harris",
+                    "url": "https://itunes.apple.com/au/album/feels-feat-pharrell-williams-katy-perry-big-sean/id1233842167?i=1233842597",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Dance",
+                    "Music"
+                    ],
+                    "durationInMillis": 223407,
+                    "releaseDate": "2017-06-30",
+                    "name": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+                    "playParams": {
+                        "id": "1233842597",
+                        "kind": "song"
+                    },
+                    "trackNumber": 8,
+                    "composerName": "Adam Wiles",
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1221643847",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1221643847",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is3-ssl.mzstatic.com/image/thumb/Music122/v4/3c/41/51/3c4151e5-352a-cc83-abc7-8a796a1761ea/source/{w}x{h}bb.jpg",
+                        "bgColor": "15101a",
+                        "textColor1": "e5b11b",
+                        "textColor2": "e77864",
+                        "textColor3": "bb901b",
+                        "textColor4": "bd6355"
+                    },
+                    "artistName": "French Montana",
+                    "url": "https://itunes.apple.com/au/album/unforgettable-feat-swae-lee/id1221643844?i=1221643847",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Hip-Hop/Rap",
+                    "Music"
+                    ],
+                    "durationInMillis": 233833,
+                    "releaseDate": "2017-04-07",
+                    "name": "Unforgettable (feat. Swae Lee)",
+                    "playParams": {
+                        "id": "1221643847",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Karim Kharbouch, Khalif Brown, Michael L. Williams II, Christopher Washington, McCulloch Reid Sutphin & Aujla Jagvir Singh",
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1193700923",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1193700923",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is3-ssl.mzstatic.com/image/thumb/Music111/v4/50/90/30/509030b7-9944-bbc2-31fc-62429a54802f/source/{w}x{h}bb.jpg",
+                        "bgColor": "151716",
+                        "textColor1": "7ddafa",
+                        "textColor2": "69d5f1",
+                        "textColor3": "68b3cc",
+                        "textColor4": "58afc5"
+                    },
+                    "artistName": "Ed Sheeran",
+                    "url": "https://itunes.apple.com/au/album/shape-of-you/id1193700802?i=1193700923",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music",
+                    "Singer/Songwriter"
+                    ],
+                    "durationInMillis": 233713,
+                    "releaseDate": "2017-01-06",
+                    "name": "Shape of You",
+                    "playParams": {
+                        "id": "1193700923",
+                        "kind": "song"
+                    },
+                    "trackNumber": 4,
+                    "composerName": "Ed Sheeran, Steve Mac & Johnny McDaid"
+                }
+            },
+            {
+                "id": "1233503315",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1233503315",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is4-ssl.mzstatic.com/image/thumb/Music117/v4/3d/15/1e/3d151e6d-993e-0e86-a6c1-925af44b6156/source/{w}x{h}bb.jpg",
+                        "bgColor": "0a1919",
+                        "textColor1": "f5f8fd",
+                        "textColor2": "7d83e3",
+                        "textColor3": "c6cbcf",
+                        "textColor4": "666ebb"
+                    },
+                    "artistName": "Imagine Dragons",
+                    "url": "https://itunes.apple.com/au/album/thunder/id1233503295?i=1233503315",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Alternative",
+                    "Music"
+                    ],
+                    "durationInMillis": 187145,
+                    "releaseDate": "2017-04-27",
+                    "name": "Thunder",
+                    "playParams": {
+                        "id": "1233503315",
+                        "kind": "song"
+                    },
+                    "trackNumber": 9,
+                    "composerName": "Dan Reynolds, Wayne Sermon, Ben McKee, Daniel Platzman, Alexander Grant & Jayson Dezuzio"
+                }
+            },
+            {
+                "id": "1223620714",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1223620714",
+                "attributes": {
+                    "artwork": {
+                        "width": 6000,
+                        "height": 6000,
+                        "url": "https://is2-ssl.mzstatic.com/image/thumb/Music111/v4/3a/b3/4e/3ab34e41-7cff-be3c-990f-16fec053368d/source/{w}x{h}bb.jpg",
+                        "bgColor": "f4f2f7",
+                        "textColor1": "080c10",
+                        "textColor2": "2d1c22",
+                        "textColor3": "373a3e",
+                        "textColor4": "54474c"
+                    },
+                    "artistName": "Kendrick Lamar",
+                    "url": "https://itunes.apple.com/au/album/humble/id1223618217?i=1223620714",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Hip-Hop/Rap",
+                    "Music"
+                    ],
+                    "durationInMillis": 177000,
+                    "releaseDate": "2017-03-31",
+                    "name": "HUMBLE.",
+                    "playParams": {
+                        "id": "1223620714",
+                        "kind": "song"
+                    },
+                    "trackNumber": 8,
+                    "composerName": "Kendrick Lamar, A. Hogan & Michael L. Williams II",
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1209277964",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1209277964",
+                "attributes": {
+                    "artwork": {
+                        "width": 1425,
+                        "height": 1425,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6b/90/51/6b9051f2-ab4f-7a76-65ba-0475eab844e4/source/{w}x{h}bb.jpg",
+                        "bgColor": "4e3d47",
+                        "textColor1": "fff5db",
+                        "textColor2": "f7caa9",
+                        "textColor3": "dbd0bd",
+                        "textColor4": "d5ae95"
+                    },
+                    "artistName": "Maggie Lindemann",
+                    "url": "https://itunes.apple.com/au/album/pretty-girl-cheat-codes-x-cade-remix/id1209277886?i=1209277964",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 193613,
+                    "releaseDate": "2017-03-02",
+                    "name": "Pretty Girl (Cheat Codes X Cade Remix)",
+                    "playParams": {
+                        "id": "1209277964",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1228884016",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1228884016",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/19/15/ad/1915ad67-8a12-3a62-b4ad-16f4926da8c0/source/{w}x{h}bb.jpg",
+                        "bgColor": "ffffff",
+                        "textColor1": "09090f",
+                        "textColor2": "311118",
+                        "textColor3": "3a3a3f",
+                        "textColor4": "5a4146"
+                    },
+                    "artistName": "Jonas Blue",
+                    "url": "https://itunes.apple.com/au/album/mama-feat-william-singe/id1228883615?i=1228884016",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Dance",
+                    "Music"
+                    ],
+                    "durationInMillis": 184134,
+                    "releaseDate": "2017-05-05",
+                    "name": "Mama (feat. William Singe)",
+                    "playParams": {
+                        "id": "1228884016",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Guy James Robin, Ed Drewett & Sam Roman"
+                }
+            },
+            {
+                "id": "1236109755",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1236109755",
+                "attributes": {
+                    "artwork": {
+                        "width": 4000,
+                        "height": 4000,
+                        "url": "https://is5-ssl.mzstatic.com/image/thumb/Music127/v4/32/b9/3d/32b93dda-7390-612f-0f25-2e65d7dee20b/source/{w}x{h}bb.jpg",
+                        "bgColor": "b8a2a5",
+                        "textColor1": "0a0605",
+                        "textColor2": "342013",
+                        "textColor3": "2d2525",
+                        "textColor4": "4e3a30"
+                    },
+                    "artistName": "Rita Ora",
+                    "url": "https://itunes.apple.com/au/album/your-song/id1236109564?i=1236109755",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 180757,
+                    "releaseDate": "2017-05-26",
+                    "name": "Your Song",
+                    "playParams": {
+                        "id": "1236109755",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1
+                }
+            },
+            {
+                "id": "1226009487",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1226009487",
+                "attributes": {
+                    "artwork": {
+                        "width": 1425,
+                        "height": 1425,
+                        "url": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/30/80/9d/30809dc9-c670-3957-4590-bff899b69543/source/{w}x{h}bb.jpg",
+                        "bgColor": "bf1e10",
+                        "textColor1": "e8e8e8",
+                        "textColor2": "e8e8e8",
+                        "textColor3": "dfbfbc",
+                        "textColor4": "dfbfbc"
+                    },
+                    "artistName": "Charlie Puth",
+                    "url": "https://itunes.apple.com/au/album/attention/id1226009041?i=1226009487",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 211475,
+                    "releaseDate": "2017-04-21",
+                    "name": "Attention",
+                    "playParams": {
+                        "id": "1226009487",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Charlie Puth & Jacob Kasher"
+                }
+            },
+            {
+                "id": "1244212113",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1244212113",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is5-ssl.mzstatic.com/image/thumb/Music117/v4/bf/bf/36/bfbf3655-8939-668d-a192-5ed90177ca21/source/{w}x{h}bb.jpg",
+                        "bgColor": "031813",
+                        "textColor1": "c3e8e4",
+                        "textColor2": "fdc2d0",
+                        "textColor3": "9dbeba",
+                        "textColor4": "cba0aa"
+                    },
+                    "artistName": "Macklemore",
+                    "url": "https://itunes.apple.com/au/album/glorious-feat-skylar-grey/id1244211447?i=1244212113",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Hip-Hop/Rap",
+                    "Music"
+                    ],
+                    "durationInMillis": 220454,
+                    "releaseDate": "2017-06-15",
+                    "name": "Glorious (feat. Skylar Grey)",
+                    "playParams": {
+                        "id": "1244212113",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "contentRating": "explicit"
+                }
+            },
+            {
+                "id": "1227547257",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1227547257",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/4f/37/db/4f37db1c-6319-e86b-4dbe-269a57df27ee/source/{w}x{h}bb.jpg",
+                        "bgColor": "1a2224",
+                        "textColor1": "b4cd95",
+                        "textColor2": "69c4e0",
+                        "textColor3": "95ab7e",
+                        "textColor4": "59a4ba"
+                    },
+                    "artistName": "Shawn Mendes",
+                    "url": "https://itunes.apple.com/au/album/theres-nothing-holdin-me-back/id1227547246?i=1227547257",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 199432,
+                    "releaseDate": "2016-09-23",
+                    "name": "There's Nothing Holdin' Me Back",
+                    "playParams": {
+                        "id": "1227547257",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Shawn Mendes, Teddy Geiger, Scott Harris & Geoff Warburton"
+                }
+            },
+            {
+                "id": "1193700927",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1193700927",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is3-ssl.mzstatic.com/image/thumb/Music111/v4/50/90/30/509030b7-9944-bbc2-31fc-62429a54802f/source/{w}x{h}bb.jpg",
+                        "bgColor": "151716",
+                        "textColor1": "7ddafa",
+                        "textColor2": "69d5f1",
+                        "textColor3": "68b3cc",
+                        "textColor4": "58afc5"
+                    },
+                    "artistName": "Ed Sheeran",
+                    "url": "https://itunes.apple.com/au/album/galway-girl/id1193700802?i=1193700927",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music",
+                    "Singer/Songwriter"
+                    ],
+                    "durationInMillis": 170827,
+                    "releaseDate": "2017-03-03",
+                    "name": "Galway Girl",
+                    "playParams": {
+                        "id": "1193700927",
+                        "kind": "song"
+                    },
+                    "trackNumber": 6,
+                    "composerName": "Damian McKee, Eamon Murray, Johnny McDaid, Liam Bradley, Niamh Dunne, Sean Graham & Foy Vance"
+                }
+            },
+            {
+                "id": "1235896356",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1235896356",
+                "attributes": {
+                    "artwork": {
+                        "width": 3000,
+                        "height": 3000,
+                        "url": "https://is4-ssl.mzstatic.com/image/thumb/Music127/v4/fc/e8/f8/fce8f800-b264-8dd2-8b6c-19a51435f391/source/{w}x{h}bb.jpg",
+                        "bgColor": "201911",
+                        "textColor1": "e4e6e3",
+                        "textColor2": "d2e7ef",
+                        "textColor3": "bdbdb9",
+                        "textColor4": "afbec2"
+                    },
+                    "artistName": "Selena Gomez",
+                    "url": "https://itunes.apple.com/au/album/bad-liar/id1235896353?i=1235896356",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 214648,
+                    "releaseDate": "2017-05-18",
+                    "name": "Bad Liar",
+                    "playParams": {
+                        "id": "1235896356",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "editorialNotes": {
+                        "short": "A pulsing, sultry slice of diva pop."
+                    },
+                    "composerName": "Selena Gomez, Justin Tranter, Julia Michaels, Ian Kirkpatrick & David Byrne"
+                }
+            },
+            {
+                "id": "1234317000",
+                "type": "songs",
+                "href": "/v1/catalog/au/songs/1234317000",
+                "attributes": {
+                    "artwork": {
+                        "width": 1500,
+                        "height": 1500,
+                        "url": "https://is2-ssl.mzstatic.com/image/thumb/Music127/v4/b1/7a/15/b17a1545-0e0f-d00f-8fcd-d92320a7aa33/source/{w}x{h}bb.jpg",
+                        "bgColor": "321311",
+                        "textColor1": "fffeff",
+                        "textColor2": "adcee9",
+                        "textColor3": "d5cecf",
+                        "textColor4": "94a9be"
+                    },
+                    "artistName": "Miley Cyrus",
+                    "url": "https://itunes.apple.com/au/album/malibu/id1234316999?i=1234317000",
+                    "discNumber": 1,
+                    "genreNames": [
+                    "Pop",
+                    "Music"
+                    ],
+                    "durationInMillis": 231906,
+                    "releaseDate": "2017-05-12",
+                    "name": "Malibu",
+                    "playParams": {
+                        "id": "1234317000",
+                        "kind": "song"
+                    },
+                    "trackNumber": 1,
+                    "composerName": "Miley Cyrus & Oren Yoel"
+                }
+            }
+            ]
+        }
+        ]
+    }
+}
