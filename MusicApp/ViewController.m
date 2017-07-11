@@ -44,7 +44,6 @@ NSString *const query=@"charts?types=songs";
     self.progressHUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     self.progressHUD.mode = MBProgressHUDModeIndeterminate;
     [self requestForAuthorization];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -58,9 +57,7 @@ NSString *const query=@"charts?types=songs";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
     return 120;
-    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -101,11 +98,6 @@ NSString *const query=@"charts?types=songs";
         [controller setNowPlayingItem:queue.items[0]];
         [controller prepareToPlay];
         [controller play];
-        
-//        MPMediaItem *item = [controller nowPlayingItem];
-//        
-//        NSDictionary *info = @{MPMediaItemPropertyAlbumTitle:item.albumTitle, MPMediaItemPropertyArtist:item.albumArtist, MPMediaItemPropertyTitle:item.title, MPMediaItemPropertyArtwork:item.artwork, MPMediaItemPropertyPlaybackDuration:@(item.playbackDuration), MPNowPlayingInfoPropertyElapsedPlaybackTime:@0};
-//        [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:info];
     }];
 
 }

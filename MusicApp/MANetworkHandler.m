@@ -49,22 +49,6 @@ static MANetworkHandler *networkHandler;
                 }
                 
             }] resume];
-    
-    
- /*   [NSURLConnection sendAsynchronousRequest:request
-                                       queue:[NSOperationQueue mainQueue]
-                           completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
-                               if (!error) {
-                                   MAParser *parser=[[MAParser alloc] init];
-                                   [parser parseRespose:data completion:^(NSArray *songListArray, NSError *error) {
-                                       handler(songListArray,error);
-                                   }];
-                               }
-                               else{
-                                   handler(nil,error);
-                               }
-                           }]; */
-    
 }
 
 @end
