@@ -28,8 +28,9 @@
 		6B5D8ABC1F14B56D00C82D3A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D8ABB1F14B56D00C82D3A /* MBProgressHUD.m */; };
 		6B5D8ABF1F14C71700C82D3A /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D8ABD1F14C71700C82D3A /* play@2x.png */; };
 		6B5D8AC01F14C71700C82D3A /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D8ABE1F14C71700C82D3A /* stop@2x.png */; };
-		6B5D8AC31F1524D400C82D3A /* Gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D8AC21F1524D400C82D3A /* Gif */; };
 		6B5D8AC61F15412800C82D3A /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D8AC51F15412800C82D3A /* KeychainWrapper.m */; };
+		6B5D8AD41F154D0100C82D3A /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D8AD11F154D0100C82D3A /* FLAnimatedImage.m */; };
+		6B5D8AD51F154D0100C82D3A /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D8AD31F154D0100C82D3A /* FLAnimatedImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,10 +92,13 @@
 		6B5D8ABB1F14B56D00C82D3A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6B5D8ABD1F14C71700C82D3A /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		6B5D8ABE1F14C71700C82D3A /* stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop@2x.png"; sourceTree = "<group>"; };
-		6B5D8AC21F1524D400C82D3A /* Gif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gif; sourceTree = "<group>"; };
 		6B5D8AC41F15412800C82D3A /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		6B5D8AC51F15412800C82D3A /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 		6B5D8AC81F15447000C82D3A /* MusicApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicApp.entitlements; sourceTree = "<group>"; };
+		6B5D8AD01F154D0100C82D3A /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimationImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		6B5D8AD11F154D0100C82D3A /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimationImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		6B5D8AD21F154D0100C82D3A /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimationImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		6B5D8AD31F154D0100C82D3A /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimationImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				6B5D8AC81F15447000C82D3A /* MusicApp.entitlements */,
-				6B5D8AC21F1524D400C82D3A /* Gif */,
 				6B0C4FAA1F0FE5230046137F /* AppDelegate.h */,
 				6B0C4FAB1F0FE5230046137F /* AppDelegate.m */,
+				6B5D8AD61F154D0600C82D3A /* AnimationImage */,
 				6B5D8AC71F15412B00C82D3A /* KeyChainWrapper */,
 				6B5D8AC11F14ED5600C82D3A /* Images */,
 				6B5D8AA71F13F4EA00C82D3A /* Utilities */,
@@ -287,6 +291,17 @@
 			name = KeyChainWrapper;
 			sourceTree = "<group>";
 		};
+		6B5D8AD61F154D0600C82D3A /* AnimationImage */ = {
+			isa = PBXGroup;
+			children = (
+				6B5D8AD01F154D0100C82D3A /* FLAnimatedImage.h */,
+				6B5D8AD11F154D0100C82D3A /* FLAnimatedImage.m */,
+				6B5D8AD21F154D0100C82D3A /* FLAnimatedImageView.h */,
+				6B5D8AD31F154D0100C82D3A /* FLAnimatedImageView.m */,
+			);
+			name = AnimationImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,7 +417,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B5D8AC31F1524D400C82D3A /* Gif in Resources */,
 				6B5D8ABF1F14C71700C82D3A /* play@2x.png in Resources */,
 				6B0C4FDB1F0FE6990046137F /* MASongListCell.xib in Resources */,
 				6B0C4FB71F0FE5230046137F /* LaunchScreen.storyboard in Resources */,
@@ -436,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B0C4FAF1F0FE5230046137F /* ViewController.m in Sources */,
+				6B5D8AD41F154D0100C82D3A /* FLAnimatedImage.m in Sources */,
 				6B5D8A9D1F13D6D000C82D3A /* MANetworkHandler.m in Sources */,
 				6B5D8AA01F13D7E900C82D3A /* MAParser.m in Sources */,
 				6B5D8AA31F13F0D900C82D3A /* MAModel.m in Sources */,
@@ -445,6 +460,7 @@
 				6B5D8A831F122F1F00C82D3A /* MAUtilities.m in Sources */,
 				6B0C4FA91F0FE5230046137F /* main.m in Sources */,
 				6B5D8AC61F15412800C82D3A /* KeychainWrapper.m in Sources */,
+				6B5D8AD51F154D0100C82D3A /* FLAnimatedImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

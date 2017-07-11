@@ -14,6 +14,8 @@
 #import <AVFoundation/AVFoundation.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import "MBProgressHUD.h"
+#import "FLAnimatedImage.h"
+#import "FLAnimatedImageView.h"
 
 NSString *const storeFrontKey=@"au";
 NSString *const query=@"charts?types=songs";
@@ -25,6 +27,7 @@ NSString *const query=@"charts?types=songs";
     SKCloudServiceSetupViewController *setUpVC;
     NSMutableArray *songListArray;
     MPMusicPlayerApplicationController *controller;
+    NSIndexPath *playingSong;
 
 }
 
@@ -77,34 +80,38 @@ NSString *const query=@"charts?types=songs";
     {
         [self getTopSongs];
     }
-    [cell cellWithData:[songListArray objectAtIndex:indexPath.row]];
+    if(playingSong==indexPath){
+    [cell cellWithData:[songListArray objectAtIndex:indexPath.row] isPlaying:YES];
+    }
+    else{
+       [cell cellWithData:[songListArray objectAtIndex:indexPath.row] isPlaying:NO];
+    }
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self playSong:indexPath];
-//    MASongListCellTableViewCell *cell= (MASongListCellTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
-//    [cell.imgArtistArt setImage:[UIImage animatedImageNamed:@"music.gif" duration:1.0f]];
-//    [cell.imgArtistArt startAnimating];
-}
-
--(void)playSong:(NSIndexPath *)indexPath;
-{
-    MAModel *songObject=  [songListArray objectAtIndex:indexPath.row];
-  //  [self.viewContolMedia setHidden:YES];
+    if(playingSong)
+    {
+        MASongListCellTableViewCell *cell= (MASongListCellTableViewCell *)[tableView cellForRowAtIndexPath:playingSong];
+        [cell cellWithData:[songListArray objectAtIndex:playingSong.row] isPlaying:NO];
+    }
+    MASongListCellTableViewCell *cell= (MASongListCellTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+    
+     MAModel *songObject=  [songListArray objectAtIndex:indexPath.row];
     controller = [MPMusicPlayerController applicationQueuePlayer];
     [controller performQueueTransaction:^(MPMusicPlayerControllerMutableQueue * _Nonnull queue) {
         MPMusicPlayerStoreQueueDescriptor *queueDescripter = [[MPMusicPlayerStoreQueueDescriptor alloc] initWithStoreIDs:@[songObject.storeID]];
         [queue insertQueueDescriptor:queueDescripter afterItem:nil];
     } completionHandler:^(MPMusicPlayerControllerQueue * _Nonnull queue, NSError * _Nullable error) {
+        [cell cellWithData:[songListArray objectAtIndex:indexPath.row] isPlaying:YES];
         [controller setNowPlayingItem:queue.items[0]];
         [controller prepareToPlay];
         [controller play];
     }];
 
+    playingSong=indexPath;
 }
-
 
 
 -(void)requestForAuthorization

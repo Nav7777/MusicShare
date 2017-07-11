@@ -8,14 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "MAModel.h"
+#import "FLAnimatedImageView.h"
+#import "FLAnimatedImage.h"
 
 @interface MASongListCellTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *imgArtistArt;
+@property (weak, nonatomic) IBOutlet FLAnimatedImageView *imgArtistArt;
 @property (weak, nonatomic) IBOutlet UILabel *lblSongName;
 @property (weak, nonatomic) IBOutlet UILabel *lblArtistname;
 @property (weak, nonatomic) IBOutlet UILabel *lblArtistAlbum;
 @property (weak, nonatomic) IBOutlet UIImageView *imgPlayIndicator;
 
--(void)cellWithData:(MAModel *)songObject;
+
+-(void)cellWithData:(MAModel *)songObject isPlaying:(BOOL)isPlaying;
 
 @end
