@@ -15,5 +15,6 @@
 +(NSString *)getBaseURL;
 +(NSString *)getQueryForURL;
 +(void)setQueryForURL:(NSString *)url;
++(void)storeAuthorizationToken;
 
 @end

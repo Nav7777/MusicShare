@@ -7,6 +7,7 @@
 //
 
 #import "MAUtilities.h"
+#import "KeychainWrapper.h"
 
 @implementation MAUtilities
 
@@ -38,9 +39,19 @@ static NSString *query=@"v1/catalog/au/charts?types=songs&offsets=20";
     }
 }
 
++(void)storeAuthorizationToken
+{
+    KeychainWrapper* keychain = [[KeychainWrapper alloc] init ];
+    [keychain mySetObject:@"Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjhGUTVDWTRQMk0ifQ.eyJpc3MiOiJKNzI4NU1YMjI5IiwiaWF0IjoxNDk5NzUxNjQzLCJleHAiOjE1MTUzMDM2NDN9.PxlhSei6uFb3GhHV1PX6OHyO80Yfy4M26KRBKEB6AX6gF_rLtCl8Cvm9ClbbRKspuqIwGS9y9aXZFdi9GSkA-g" forKey:kSecValueData];
+    [keychain writeToKeychain];
+}
+
 +(NSString *)getAuthorizationToken
 {
-    return @"Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjhGUTVDWTRQMk0ifQ.eyJpc3MiOiJKNzI4NU1YMjI5IiwiaWF0IjoxNDk5NzUxNjQzLCJleHAiOjE1MTUzMDM2NDN9.PxlhSei6uFb3GhHV1PX6OHyO80Yfy4M26KRBKEB6AX6gF_rLtCl8Cvm9ClbbRKspuqIwGS9y9aXZFdi9GSkA-g";
+    KeychainWrapper* keychain = [[KeychainWrapper alloc] init ];
+    return [keychain myObjectForKey:kSecValueData];
 }
+
+
 
 @end

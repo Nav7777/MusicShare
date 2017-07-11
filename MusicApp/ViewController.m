@@ -43,6 +43,7 @@ NSString *const query=@"charts?types=songs";
     setUpVC.delegate=self;
     self.progressHUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     self.progressHUD.mode = MBProgressHUDModeIndeterminate;
+    [MAUtilities storeAuthorizationToken];
     [self requestForAuthorization];
 }
 
@@ -83,7 +84,9 @@ NSString *const query=@"charts?types=songs";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self playSong:indexPath];
-
+//    MASongListCellTableViewCell *cell= (MASongListCellTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+//    [cell.imgArtistArt setImage:[UIImage animatedImageNamed:@"music.gif" duration:1.0f]];
+//    [cell.imgArtistArt startAnimating];
 }
 
 -(void)playSong:(NSIndexPath *)indexPath;
