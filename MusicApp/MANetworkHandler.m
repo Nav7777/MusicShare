@@ -33,7 +33,25 @@ static MANetworkHandler *networkHandler;
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     
     [request setValue:[MAUtilities getAuthorizationToken] forHTTPHeaderField:@"Authorization"];
-    [NSURLConnection sendAsynchronousRequest:request
+    NSURLSession *session = [NSURLSession sharedSession];
+    [[session dataTaskWithRequest:request
+            completionHandler:^(NSData *data,
+                                NSURLResponse *response,
+                                NSError *error) {
+                if (!error) {
+                    MAParser *parser=[[MAParser alloc] init];
+                    [parser parseRespose:data completion:^(NSArray *songListArray, NSError *error) {
+                        handler(songListArray,error);
+                    }];
+                }
+                else{
+                    handler(nil,error);
+                }
+                
+            }] resume];
+    
+    
+ /*   [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
                                if (!error) {
@@ -45,7 +63,7 @@ static MANetworkHandler *networkHandler;
                                else{
                                    handler(nil,error);
                                }
-                           }];
+                           }]; */
     
 }
 
